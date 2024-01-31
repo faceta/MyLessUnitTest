@@ -1,0 +1,136 @@
+
+1. Изучите основы устройства Hibernate на официальном сайте фрэймворка. Рекомендуем выбирать версию от 5.5. 
+
+https://hibernate.org/orm/documentation/5.5/
+
+2. Изучите ряд статей по теме Hibernate на обучающем портале Geeksforgeeks:
+
+https://www.geeksforgeeks.org/hibernate-tutorial/
+
+3. Пройдите цикл видеоуроков по основам Hibernate:
+
+https://www.youtube.com/playlist?list=PL8X2nqRlWfabN7rXPD7KDfXd8jFhAmkTL
+
+4. Изучите статьи на обучающей платформе Baeldung:
+
+https://www.baeldung.com/learn-jpa-hibernate
+
+5. Также рекомендуем к прочтению книгу «Java Persistence API и Hibernate» Зинкевич Д.А., Кинг Гэвин. Книга является одной из настольных книг большинства разработчиков на Java и Hibernate и считается самой полной книгой по Hibernate.
+----------------------------------------------------------------------------------------------------------------
+Spring — это самый популярный фреймворком для работы с Java.  В этом курсе вы сможете получить базовые знания о Spring Framework. Курс охватывает следующие темы:
+
+Spring Core: IoC (Inversion Of Control) и DI (Dependency Injection)
+Spring AOP (Аспектно-ориентированное программирование)
+Spring MVC (Model-View-Controller)
+Spring DATA (JPA)
+Spring DATA (JDBC)
+Spring Boot
+Материалы курса предназначены для самостоятельного изучения и содержат ссылки на внешние источники, где вы найдете статьи, текстовые документы или видео. Большинство материалов представлено на английском языке, если вам потребуется помощь в понимании материалов, вы сможете воспользоваться одним их этих инструментов перевода:
+
+Яндекс.Переводчик 
+
+iTranslate 
+
+Переводчик Microsoft 
+
+Хотя в этой части программы вы не найдете проверочных упражнений и тестов, мы просим вас максимально ответственно подойти к своему обучению и изучить все материалы в нужной последовательности.
+------------------------------------------------------------------------------------
+Spring Core — ядро фреймворка, на котором держатся все остальные модули. В этом модуле вы познакомитесь с понятиями инверсия управления (Inversion Of Control) и внедрение зависимостей (Dependency Injection).
+
+1. Прочитайте статью "Inversion of Control Containers and the Dependency Injection pattern" от Martin Fowler: 
+
+https://martinfowler.com/articles/injection.html
+
+2. Изучите официальную документацию Spring о IoC Container: 
+
+https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#beans-introduction
+
+3. Прочитайте статью «Spring Dependency Injection»:
+
+https://www.baeldung.com/spring-dependency-injection
+
+4. Посмотрите видеоролик «Dependency Injection»: 
+
+https://www.youtube.com/watch?app=desktop&v=IKD2-MAkXyQ
+
+5. Прочитайте статью «Understanding the @Autowired Annotation in Spring»:
+
+https://www.baeldung.com/spring-autowire
+
+6. Прочитайте статью «Annotation-based Container Configuration»:
+
+https://docs.spring.io/spring-framework/reference/core/beans/annotation-config.html
+
+7. Пройдите урок «Введение в Spring IoC контейнер»:
+
+https://spring-projects.ru/guides/lessons/lesson-2/
+-----------------------------------------------------------------------------------------------
+Spring AOP представляет идею сквозной функциональности, которая не несет смысловой нагрузки для бизнес логики приложений, но должна присутствовать везде — это логирование, управление транзакциями, Proxy и пр. Далее вы узнаете, как с этими задачами работает модуль Spring AOP.
+
+1. Прочитайте статью «Introduction to Spring AOP»: 
+
+https://www.baeldung.com/spring-aop
+
+2. Изучите официальную документацию Spring о Spring AOP: 
+
+https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#aop
+
+3. Посмотрите видео лекцию «Spring Tutorial 24 - Introduction to AOP»:
+
+https://www.youtube.com/watch?v=QdyLsX0nG30&list=PLE37064DE302862F8
+--------------------------------------------------------------------------------------------------
+Spring MVC является шаблоном проектирования в рамках Spring Framework, позволяющим разрабатывать веб-приложения на языке Java. Он часто используется в масштабных корпоративных проектах. В этом модуле вы познакомитесь с приложением Spring MVC, узнаете, как начать и настроить свой собственный проект.
+
+1. Прочитайте статью «Introduction to Spring MVC»:
+
+https://www.baeldung.com/spring-mvc-tutorial
+
+2. Изучите официальную документацию Spring о Spring MVC: 
+
+https://docs.spring.io/spring-framework/docs/current/reference/html/web.html#mvc
+
+3. Посмотрите видео лекцию «Spring MVC Tutorial for Beginners»:
+
+https://www.youtube.com/watch?v=1IsL6g2ixak
+--------------------------------------------------------------------------------------------------
+В этом модуле вы узнаете, как работать с реляционными базами данных, познакомитесь со Spring Data JPA.
+
+1. Изучите официальную документацию Spring о Spring Data JPA: 
+
+https://docs.spring.io/spring-data/jpa/docs/current/reference/html/
+
+2. Прочитайте статью об использовании Spring Data JPA:
+
+https://habr.com/ru/articles/435114/
+
+3. Посмотрите видео лекцию «Spring MVC Tutorial for Beginners»: Spring Boot Tutorial. Spring Data JPA»:
+
+https://youtu.be/8SGI_XS5OPw
+--------------------------------------------------------------------------------------------------------
+Далее вы познакомитесь со Spring DATA (JDBC), которая была создана как более простая альтернатива JPA для разработчиков.
+
+1. Посмотрите видео лекцию «Spring Framework. JDBC API. Базы данных»:
+
+https://youtu.be/5LHCmvzugQM
+
+2. Посмотрите видео лекцию «Spring Framework. JdbcTemplate»:
+
+https://youtu.be/YozbZQ7PxtQ
+
+3. Изучите официальную документацию Spring о Spring Data JDBC: 
+
+https://docs.spring.io/spring-data/jdbc/docs/current/reference/html/
+------------------------------------------------------------------------------------------------------------
+Spring Boot — это один из вспомогательных проектов Spring, который упрощает настройку фреймворка Spring и ускоряет запуск проектов. В этом модуле вы узнаете из чего состоит Spring Boot и как с ним работать.
+
+1. Изучите туториал по работе со Spring Boot:
+
+https://www.geeksforgeeks.org/spring-boot/
+
+2. Посмотрите видео лекцию «Spring Boot Tutorial»:
+
+https://youtu.be/9SGDpanrc8U
+--------------------------------------------------------------------------------------------------------------
+Здесь собраны видео уроки по Spring, которые также могут дополнить ваши знания о фреймворке:
+
+https://www.youtube.com/watch?v=5ePo08sqcpk&list=PLAma_mKffTOR5o0WNHnY0mTjKxnCgSXrZ
